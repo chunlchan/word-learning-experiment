@@ -1,0 +1,20 @@
+{
+  "blocks": [
+    {
+      "training": "1_training_block_1.json",
+      "test": "1_test_block_1.json"
+    },
+    {
+      "training": "1_training_block_2.json",
+      "test": "1_test_block_2.json"
+    },
+    {
+      "training": "1_training_block_3.json",
+      "test": "1_test_block_3.json"
+    },
+    {
+      "training": "1_training_block_4.json",
+      "test": "1_test_block_4.json"
+    }
+  ]
+}
