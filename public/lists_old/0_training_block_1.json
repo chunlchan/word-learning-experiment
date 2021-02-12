@@ -1,0 +1,47 @@
+[
+    {
+        "block_num": 1,
+        "trial_num": 1,
+        "training_object": "TROBJ1.JPG",
+        "new_object": "NOVOBJ1.JPG",
+        "heard_label": "boITH.wav",
+        "trained_label": "boITH",
+        "misp_label": "goITH",
+        "novel_label": 998,
+        "corr_answer": "training_object",
+        "condition": "corr",
+        "exposure": 1,
+        "novel": 1,
+        "trial_type": 1
+    },
+    {
+        "block_num": 1,
+        "trial_num": 2,
+        "training_object": "TROBJ2.JPG",
+        "new_object": "NOVOBJ2.JPG",
+        "heard_label": "tUth.wav",
+        "trained_label": "pUth",
+        "misp_label": "tUth",
+        "novel_label": 998,
+        "corr_answer": "new_object",
+        "condition": "mis",
+        "exposure": 1,
+        "novel": 1,
+        "trial_type": 2
+    },
+    {
+        "block_num": 1,
+        "trial_num": 3,
+        "training_object": "TROBJ3.JPG",
+        "new_object": "NOVOBJ3.JPG",
+        "heard_label": "teg.wav",
+        "trained_label": "teg",
+        "misp_label": "peg",
+        "novel_label": 998,
+        "corr_answer": "training_object",
+        "condition": "corr",
+        "exposure": 5,
+        "novel": 1,
+        "trial_type": 3
+    }
+]

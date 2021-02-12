@@ -142,7 +142,7 @@ function useItem() {
         showFixation.value = false;
         showImages.value = true;
         showRedBox.value = false;
-        playSound(currentItem.value.heard_label);
+        playSound(currentItem.value.heard_at_test);
 
         //data to push to firebase
         var dataToPush = JSON.parse(JSON.stringify(currentItem)).value;

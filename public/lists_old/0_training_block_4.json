@@ -1,0 +1,47 @@
+[
+    {
+        "block_num": 4,
+        "trial_num": 55,
+        "training_object": "TROBJ37.JPG",
+        "new_object": "NOVOBJ13.JPG",
+        "heard_label": "klop.wav",
+        "trained_label": "klop",
+        "misp_label": "glop",
+        "novel_label": 998,
+        "corr_answer": "training_object",
+        "condition": "corr",
+        "exposure": 1,
+        "novel": 1,
+        "trial_type": 1
+    },
+    {
+        "block_num": 4,
+        "trial_num": 56,
+        "training_object": "TROBJ38.JPG",
+        "new_object": "NOVOBJ14.JPG",
+        "heard_label": "SaIp1.wav",
+        "trained_label": "saIp",
+        "misp_label": "SaIp1",
+        "novel_label": 998,
+        "corr_answer": "new_object",
+        "condition": "mis",
+        "exposure": 1,
+        "novel": 1,
+        "trial_type": 2
+    },
+    {
+        "block_num": 4,
+        "trial_num": 57,
+        "training_object": "TROBJ39.JPG",
+        "new_object": "NOVOBJ15.JPG",
+        "heard_label": "taes.wav",
+        "trained_label": "taes",
+        "misp_label": "kaes",
+        "novel_label": 998,
+        "corr_answer": "training_object",
+        "condition": "corr",
+        "exposure": 5,
+        "novel": 1,
+        "trial_type": 3
+    }
+]

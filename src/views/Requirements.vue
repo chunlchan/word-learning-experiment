@@ -40,6 +40,9 @@
         <v-row justify="center" align="center" no-gutters>
           <p style="color:red" v-if="valid===false">Some answers incorrect!</p>
         </v-row>
+        <v-row justify="center" align="center" no-gutters>
+          <p class="caption">version 2.0</p>
+        </v-row>
       </v-col>
     </v-row>
   </v-container>

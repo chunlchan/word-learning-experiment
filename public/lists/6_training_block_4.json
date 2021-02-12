@@ -4,7 +4,7 @@
         "trial_num": 60,
         "training_object": "TROBJ42.JPG",
         "new_object": "NOVOBJ18.JPG",
-        "heard_label": "pluk.wav",
+        "heard_at_test": "pluk.wav",
         "trained_label": "pluk",
         "misp_label": "kluk",
         "novel_label": 998,
@@ -12,14 +12,15 @@
         "condition": "corr",
         "exposure": 1,
         "novel": 0,
-        "trial_type": 1
+        "trial_type": 1,
+        "heard_at_training": "pluk.wav"
     },
     {
         "block_num": 4,
         "trial_num": 61,
         "training_object": "TROBJ43.JPG",
         "new_object": "NOVOBJ31.JPG",
-        "heard_label": "sed.wav",
+        "heard_at_test": "sed.wav",
         "trained_label": "zed",
         "misp_label": "sed",
         "novel_label": 998,
@@ -27,14 +28,15 @@
         "condition": "mis",
         "exposure": 1,
         "novel": 0,
-        "trial_type": 2
+        "trial_type": 2,
+        "heard_at_training": "zed.wav"
     },
     {
         "block_num": 4,
         "trial_num": 62,
         "training_object": "TROBJ44.JPG",
         "new_object": "NOVOBJ32.JPG",
-        "heard_label": "soIk.wav",
+        "heard_at_test": "soIk.wav",
         "trained_label": "soIk",
         "misp_label": "zoIk",
         "novel_label": 998,
@@ -42,14 +44,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "soIk.wav"
     },
     {
         "block_num": 4,
         "trial_num": 62,
         "training_object": "TROBJ44.JPG",
         "new_object": "NOVOBJ32.JPG",
-        "heard_label": "soIk.wav",
+        "heard_at_test": "soIk.wav",
         "trained_label": "soIk",
         "misp_label": "zoIk",
         "novel_label": 998,
@@ -57,14 +60,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "soIk.wav"
     },
     {
         "block_num": 4,
         "trial_num": 62,
         "training_object": "TROBJ44.JPG",
         "new_object": "NOVOBJ32.JPG",
-        "heard_label": "soIk.wav",
+        "heard_at_test": "soIk.wav",
         "trained_label": "soIk",
         "misp_label": "zoIk",
         "novel_label": 998,
@@ -72,14 +76,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "soIk.wav"
     },
     {
         "block_num": 4,
         "trial_num": 62,
         "training_object": "TROBJ44.JPG",
         "new_object": "NOVOBJ32.JPG",
-        "heard_label": "soIk.wav",
+        "heard_at_test": "soIk.wav",
         "trained_label": "soIk",
         "misp_label": "zoIk",
         "novel_label": 998,
@@ -87,14 +92,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "soIk.wav"
     },
     {
         "block_num": 4,
         "trial_num": 62,
         "training_object": "TROBJ44.JPG",
         "new_object": "NOVOBJ32.JPG",
-        "heard_label": "soIk.wav",
+        "heard_at_test": "soIk.wav",
         "trained_label": "soIk",
         "misp_label": "zoIk",
         "novel_label": 998,
@@ -102,14 +108,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "soIk.wav"
     },
     {
         "block_num": 4,
         "trial_num": 63,
         "training_object": "TROBJ45.JPG",
         "new_object": "NOVOBJ33.JPG",
-        "heard_label": "zup.wav",
+        "heard_at_test": "zup.wav",
         "trained_label": "vup",
         "misp_label": "zup",
         "novel_label": 998,
@@ -117,14 +124,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "vup.wav"
     },
     {
         "block_num": 4,
         "trial_num": 63,
         "training_object": "TROBJ45.JPG",
         "new_object": "NOVOBJ33.JPG",
-        "heard_label": "zup.wav",
+        "heard_at_test": "zup.wav",
         "trained_label": "vup",
         "misp_label": "zup",
         "novel_label": 998,
@@ -132,14 +140,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "vup.wav"
     },
     {
         "block_num": 4,
         "trial_num": 63,
         "training_object": "TROBJ45.JPG",
         "new_object": "NOVOBJ33.JPG",
-        "heard_label": "zup.wav",
+        "heard_at_test": "zup.wav",
         "trained_label": "vup",
         "misp_label": "zup",
         "novel_label": 998,
@@ -147,14 +156,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "vup.wav"
     },
     {
         "block_num": 4,
         "trial_num": 63,
         "training_object": "TROBJ45.JPG",
         "new_object": "NOVOBJ33.JPG",
-        "heard_label": "zup.wav",
+        "heard_at_test": "zup.wav",
         "trained_label": "vup",
         "misp_label": "zup",
         "novel_label": 998,
@@ -162,14 +172,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "vup.wav"
     },
     {
         "block_num": 4,
         "trial_num": 63,
         "training_object": "TROBJ45.JPG",
         "new_object": "NOVOBJ33.JPG",
-        "heard_label": "zup.wav",
+        "heard_at_test": "zup.wav",
         "trained_label": "vup",
         "misp_label": "zup",
         "novel_label": 998,
@@ -177,14 +188,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 0,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "vup.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -192,14 +204,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -207,14 +220,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -222,14 +236,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -237,14 +252,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -252,14 +268,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -267,14 +284,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -282,14 +300,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 64,
         "training_object": "TROBJ46.JPG",
         "new_object": "NOVOBJ34.JPG",
-        "heard_label": "sig.wav",
+        "heard_at_test": "sig.wav",
         "trained_label": "sig",
         "misp_label": "Sig1",
         "novel_label": 998,
@@ -297,14 +316,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "sig.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -312,14 +332,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -327,14 +348,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -342,14 +364,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -357,14 +380,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -372,14 +396,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -387,14 +412,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -402,14 +428,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 65,
         "training_object": "TROBJ47.JPG",
         "new_object": "NOVOBJ35.JPG",
-        "heard_label": "taS.wav",
+        "heard_at_test": "taS.wav",
         "trained_label": "daS",
         "misp_label": "taS",
         "novel_label": 998,
@@ -417,14 +444,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 0,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "daS.wav"
     },
     {
         "block_num": 4,
         "trial_num": 66,
         "training_object": "TROBJ48.JPG",
         "new_object": "NOVOBJ36.JPG",
-        "heard_label": "kIZ.wav",
+        "heard_at_test": "kIZ.wav",
         "trained_label": "kIZ",
         "misp_label": "gIZ",
         "novel_label": 998,
@@ -432,14 +460,15 @@
         "condition": "corr",
         "exposure": 1,
         "novel": 1,
-        "trial_type": 1
+        "trial_type": 1,
+        "heard_at_training": "kIZ.wav"
     },
     {
         "block_num": 4,
         "trial_num": 55,
         "training_object": "TROBJ37.JPG",
         "new_object": "NOVOBJ13.JPG",
-        "heard_label": "glop.wav",
+        "heard_at_test": "glop.wav",
         "trained_label": "klop",
         "misp_label": "glop",
         "novel_label": 998,
@@ -447,14 +476,15 @@
         "condition": "mis",
         "exposure": 1,
         "novel": 1,
-        "trial_type": 2
+        "trial_type": 2,
+        "heard_at_training": "klop.wav"
     },
     {
         "block_num": 4,
         "trial_num": 56,
         "training_object": "TROBJ38.JPG",
         "new_object": "NOVOBJ14.JPG",
-        "heard_label": "saIp.wav",
+        "heard_at_test": "saIp.wav",
         "trained_label": "saIp",
         "misp_label": "SaIp1",
         "novel_label": 998,
@@ -462,14 +492,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "saIp.wav"
     },
     {
         "block_num": 4,
         "trial_num": 56,
         "training_object": "TROBJ38.JPG",
         "new_object": "NOVOBJ14.JPG",
-        "heard_label": "saIp.wav",
+        "heard_at_test": "saIp.wav",
         "trained_label": "saIp",
         "misp_label": "SaIp1",
         "novel_label": 998,
@@ -477,14 +508,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "saIp.wav"
     },
     {
         "block_num": 4,
         "trial_num": 56,
         "training_object": "TROBJ38.JPG",
         "new_object": "NOVOBJ14.JPG",
-        "heard_label": "saIp.wav",
+        "heard_at_test": "saIp.wav",
         "trained_label": "saIp",
         "misp_label": "SaIp1",
         "novel_label": 998,
@@ -492,14 +524,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "saIp.wav"
     },
     {
         "block_num": 4,
         "trial_num": 56,
         "training_object": "TROBJ38.JPG",
         "new_object": "NOVOBJ14.JPG",
-        "heard_label": "saIp.wav",
+        "heard_at_test": "saIp.wav",
         "trained_label": "saIp",
         "misp_label": "SaIp1",
         "novel_label": 998,
@@ -507,14 +540,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "saIp.wav"
     },
     {
         "block_num": 4,
         "trial_num": 56,
         "training_object": "TROBJ38.JPG",
         "new_object": "NOVOBJ14.JPG",
-        "heard_label": "saIp.wav",
+        "heard_at_test": "saIp.wav",
         "trained_label": "saIp",
         "misp_label": "SaIp1",
         "novel_label": 998,
@@ -522,14 +556,15 @@
         "condition": "corr",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 3
+        "trial_type": 3,
+        "heard_at_training": "saIp.wav"
     },
     {
         "block_num": 4,
         "trial_num": 57,
         "training_object": "TROBJ39.JPG",
         "new_object": "NOVOBJ15.JPG",
-        "heard_label": "kaes.wav",
+        "heard_at_test": "kaes.wav",
         "trained_label": "taes",
         "misp_label": "kaes",
         "novel_label": 998,
@@ -537,14 +572,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "taes.wav"
     },
     {
         "block_num": 4,
         "trial_num": 57,
         "training_object": "TROBJ39.JPG",
         "new_object": "NOVOBJ15.JPG",
-        "heard_label": "kaes.wav",
+        "heard_at_test": "kaes.wav",
         "trained_label": "taes",
         "misp_label": "kaes",
         "novel_label": 998,
@@ -552,14 +588,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "taes.wav"
     },
     {
         "block_num": 4,
         "trial_num": 57,
         "training_object": "TROBJ39.JPG",
         "new_object": "NOVOBJ15.JPG",
-        "heard_label": "kaes.wav",
+        "heard_at_test": "kaes.wav",
         "trained_label": "taes",
         "misp_label": "kaes",
         "novel_label": 998,
@@ -567,14 +604,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "taes.wav"
     },
     {
         "block_num": 4,
         "trial_num": 57,
         "training_object": "TROBJ39.JPG",
         "new_object": "NOVOBJ15.JPG",
-        "heard_label": "kaes.wav",
+        "heard_at_test": "kaes.wav",
         "trained_label": "taes",
         "misp_label": "kaes",
         "novel_label": 998,
@@ -582,14 +620,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "taes.wav"
     },
     {
         "block_num": 4,
         "trial_num": 57,
         "training_object": "TROBJ39.JPG",
         "new_object": "NOVOBJ15.JPG",
-        "heard_label": "kaes.wav",
+        "heard_at_test": "kaes.wav",
         "trained_label": "taes",
         "misp_label": "kaes",
         "novel_label": 998,
@@ -597,14 +636,15 @@
         "condition": "mis",
         "exposure": 5,
         "novel": 1,
-        "trial_type": 4
+        "trial_type": 4,
+        "heard_at_training": "taes.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -612,14 +652,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -627,14 +668,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -642,14 +684,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -657,14 +700,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -672,14 +716,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -687,14 +732,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -702,14 +748,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 58,
         "training_object": "TROBJ40.JPG",
         "new_object": "NOVOBJ16.JPG",
-        "heard_label": "tib.wav",
+        "heard_at_test": "tib.wav",
         "trained_label": "tib",
         "misp_label": "dib",
         "novel_label": 998,
@@ -717,14 +764,15 @@
         "condition": "corr",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 5
+        "trial_type": 5,
+        "heard_at_training": "tib.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -732,14 +780,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -747,14 +796,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -762,14 +812,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -777,14 +828,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -792,14 +844,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -807,14 +860,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -822,14 +876,15 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     },
     {
         "block_num": 4,
         "trial_num": 59,
         "training_object": "TROBJ41.JPG",
         "new_object": "NOVOBJ17.JPG",
-        "heard_label": "ZoIn.wav",
+        "heard_at_test": "ZoIn.wav",
         "trained_label": "voIn",
         "misp_label": "ZoIn",
         "novel_label": 998,
@@ -837,6 +892,7 @@
         "condition": "mis",
         "exposure": 8,
         "novel": 1,
-        "trial_type": 6
+        "trial_type": 6,
+        "heard_at_training": "voIn.wav"
     }
 ]

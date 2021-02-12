@@ -111,7 +111,7 @@ function useItem() {
         showFixation.value = false;
         showImages.value = true;
         console.log("playing sound");
-        return playSound(currentItem.value.heard_label).then(() => {
+        return playSound(currentItem.value.heard_at_training).then(() => {
           //wait indefinitely for spacebar
           return waitForKey([" "]);
         });

@@ -107,7 +107,7 @@ async function preloadImages(list, progress) {
   traverse(list, function (key, value) {
     if (key == "training_object" || key == "new_object") {
       manifest.push({ id: value, src: "images/" + value });
-    } else if (key == "heard_label") {
+    } else if (key == "heard_at_test" || key == "heard_at_training") {
       manifest.push({ id: value, src: "sounds/" + value });
     }
   });
