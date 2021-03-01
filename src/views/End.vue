@@ -4,12 +4,13 @@
       <h2>Experiment Complete. Thank you for participating.</h2>
     </v-row>
     <v-row justify="center" align="center">
-      <v-btn @click="submitExperiment()">Submit & Return to Prolific</v-btn>
+      <v-btn @click="submitExperiment()">Submit & End Session</v-btn>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import store from "@/store/index.js";
 export default {
   mounted: function(){
     window.onbeforeunload = null;
@@ -20,7 +21,8 @@ export default {
   },  
   methods: {
     submitExperiment: function(){
-      window.location = "https://app.prolific.co/submissions/complete?cc=8AF68756";
+      let completion_url = store.state.completionUrl;
+      window.location = completion_url;
     }
   }
 }

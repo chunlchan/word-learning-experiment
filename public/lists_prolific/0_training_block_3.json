@@ -1,0 +1,50 @@
+[
+    {
+        "block_num": 3,
+        "trial_num": 37,
+        "training_object": "TROBJ25.JPG",
+        "new_object": "NOVOBJ37.JPG",
+        "heard_at_test": "sUd.wav",
+        "trained_label": "sUd",
+        "misp_label": "zUd",
+        "novel_label": 998,
+        "corr_answer": "training_object",
+        "condition": "corr",
+        "exposure": 1,
+        "novel": 1,
+        "trial_type": 1,
+        "heard_at_training": "sUd.wav"
+    },
+    {
+        "block_num": 3,
+        "trial_num": 38,
+        "training_object": "TROBJ26.JPG",
+        "new_object": "NOVOBJ38.JPG",
+        "heard_at_test": "brol.wav",
+        "trained_label": "grol",
+        "misp_label": "brol",
+        "novel_label": 998,
+        "corr_answer": "new_object",
+        "condition": "mis",
+        "exposure": 1,
+        "novel": 1,
+        "trial_type": 2,
+        "heard_at_training": "grol.wav"
+    },
+    {
+        "block_num": 3,
+        "trial_num": 39,
+        "training_object": "TROBJ27.JPG",
+        "new_object": "NOVOBJ39.JPG",
+        "heard_at_test": "zVl.wav",
+        "trained_label": "zVl",
+        "misp_label": "sVl",
+        "novel_label": 998,
+        "corr_answer": "training_object",
+        "condition": "corr",
+        "exposure": 5,
+        "novel": 1,
+        "trial_type": 3,
+        "heard_at_training": "zVl.wav"
+    }
+]

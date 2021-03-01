@@ -1,0 +1,89 @@
+{
+    "platform": "sona",
+    "listGroups": {
+        "group0": {
+            "completionUrl": "https://www.google.com/?exp=0&survey_code=XXXX",
+            "blocks": [
+                {
+                    "test": "0_test_block_1.json",
+                    "training": "0_training_block_1.json"
+                },
+                {
+                    "test": "0_test_block_2.json",
+                    "training": "0_training_block_2.json"
+                },
+                {
+                    "test": "0_test_block_3.json",
+                    "training": "0_training_block_3.json"
+                },
+                {
+                    "test": "0_test_block_4.json",
+                    "training": "0_training_block_4.json"
+                }
+            ]
+        },
+        "group1a": {
+            "completionUrl": "https://www.google.com/?exp=1&survey_code=XXXX",
+            "blocks": [
+                {
+                    "test": "1_test_block_1.json",
+                    "training": "1_training_block_1_1.json"
+                },
+                {
+                    "test": "1_test_block_2.json",
+                    "training": "1_training_block_2_1.json"
+                },
+                {
+                    "test": "1_test_block_3.json",
+                    "training": "1_training_block_3_1.json"
+                },
+                {
+                    "test": "1_test_block_4.json",
+                    "training": "1_training_block_4_1.json"
+                }
+            ]
+        },
+        "group1b": {
+            "completionUrl": "https://www.google.com/?expId=2&survey_code=XXXX",
+            "blocks": [
+                {
+                    "test": "1_test_block_1.json",
+                    "training": "1_training_block_1_2.json"
+                },
+                {
+                    "test": "1_test_block_2.json",
+                    "training": "1_training_block_2_2.json"
+                },
+                {
+                    "test": "1_test_block_3.json",
+                    "training": "1_training_block_3_2.json"
+                },
+                {
+                    "test": "1_test_block_4.json",
+                    "training": "1_training_block_4_2.json"
+                }
+            ]
+        },
+        "group2a": {
+            "completionUrl": "https://www.google.com/?expId=3&survey_code=XXXX",
+            "blocks": [
+                {
+                    "test": "2_test_block_1.json",
+                    "training": "2_training_block_1_1.json"
+                },
+                {
+                    "test": "2_test_block_2.json",
+                    "training": "2_training_block_2_1.json"
+                },
+                {
+                    "test": "2_test_block_3.json",
+                    "training": "2_training_block_3_1.json"
+                },
+                {
+                    "test": "2_test_block_4.json",
+                    "training": "2_training_block_4_1.json"
+                }
+            ]
+        }                 
+    }
+}

@@ -41,7 +41,7 @@
           <p style="color:red" v-if="valid===false">Some answers incorrect!</p>
         </v-row>
         <v-row justify="center" align="center" no-gutters>
-          <p class="caption">version 2.0</p>
+          <p class="caption">version 2.1</p>
         </v-row>
       </v-col>
     </v-row>
@@ -81,6 +81,11 @@ export default {
 
     //get participant ID
     store.state.PROLIFIC_PID = router.app.$route.query.PROLIFIC_PID;
+
+    //get list group
+    if(router.app.$route.query.listGroup){
+      store.state.listGroup = router.app.$route.query.listGroup;
+    }
 
     createjs.Sound.on("fileload", () => {
       this.soundsLoaded += 1;

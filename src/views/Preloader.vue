@@ -1,13 +1,24 @@
 <template>
   <v-container fluid fill-height>
     <v-col cols="12">
-      <v-row align="center" justify="center" v-if="progress!=100">
+      <v-row align="center" justify="center" v-if="progress != 100">
         <p>Loading... Please wait</p>
       </v-row>
       <v-row align="center" justify="center">
-        <v-progress-circular :value="progress" size="50" color="primary" rotate="-90">{{progress}}%</v-progress-circular>
+        <v-progress-circular
+          :value="progress"
+          size="50"
+          color="primary"
+          rotate="-90"
+          >{{ progress }}%</v-progress-circular
+        >
       </v-row>
-      <v-row align="center" justify="center" class="mt-5" v-if="progress==100">
+      <v-row
+        align="center"
+        justify="center"
+        class="mt-5"
+        v-if="progress == 100"
+      >
         <v-btn @click="nextClicked()">
           Next
           <v-icon>navigate_next</v-icon>
@@ -55,14 +66,32 @@ export default {
 };
 
 async function loadList() {
+  //practice list
   let practiceFetch = await fetch("lists/0_practice_block.json");
   let list = await practiceFetch.json();
 
-  let masterFetch = await db.ref().child("/master/").once("value");
-  let masterJson = masterFetch.val();
-  //let masterFetch = await fetch("master.json");
-  //let masterJson = await masterFetch.json();
-  let blocks = shuffle(masterJson.blocks);
+  //get platform (prolific or sona)
+  let configFetch = await fetch("config.json");
+  let config = await configFetch.json();
+  store.state.platform = config.platform;
+
+  let blocks;
+  if(store.state.platform == "prolific"){
+    //prolific
+    let masterFetch = await db.ref().child("/master/").once("value");
+    let masterJson = masterFetch.val();
+    blocks = shuffle(masterJson.blocks);
+    store.state.completionUrl = config.prolificCompletionUrl;
+  } else {
+    //sona
+    if(store.state.listGroup == null){
+      alert("Missing list group from URL");
+    }
+    blocks = shuffle(config.listGroups["group" + store.state.listGroup].blocks);
+    store.state.completionUrl = config.listGroups["group" + store.state.listGroup].completionUrl.slice(0, -4) + store.state.PROLIFIC_PID;
+    console.log(store.state.completionUrl);
+  }
+  
 
   for (var b = 0; b < blocks.length; b++) {
     let trainingFetch = await fetch("lists/" + blocks[b].training);

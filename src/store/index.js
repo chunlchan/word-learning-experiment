@@ -5,6 +5,9 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    platform: null,
+    listGroup: null,
+    completionUrl: null,
     list: [],
     queue: {},
     index: -1,

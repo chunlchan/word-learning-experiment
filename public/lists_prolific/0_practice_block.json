@@ -1,0 +1,41 @@
+[
+    {
+        "block_num": 0,
+        "trial_num": 1,
+        "training_object": "cat.jpg",
+        "heard_at_training": "kaet.wav",
+        "stage": "training",
+        "practice": true
+    },
+    {
+        "block_num": 0,
+        "trial_num": 2,
+        "training_object": "dog.jpg",
+        "heard_at_training": "dog.wav",
+        "stage": "training",
+        "practice": true
+    },    
+    {
+        "block_num": 0,
+        "trial_num": 3,
+        "training_object": "cat.jpg",
+        "new_object": "turtle.jpg",
+        "heard_at_test": "kaet.wav",
+        "left_img":"cat.jpg",
+        "right_img":"turtle.jpg",
+        "stage": "test",
+        "practice": true
+    },
+    {
+        "block_num": 0,
+        "trial_num": 4,
+        "training_object": "dog.jpg",
+        "new_object": "bird.jpg",
+        "heard_at_test": "dog.wav",
+        "left_img":"bird.jpg",
+        "right_img":"dog.jpg",
+        "stage": "test",
+        "practice": true
+    }  
+    
+]
