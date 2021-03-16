@@ -21,7 +21,9 @@ export default {
   },  
   methods: {
     submitExperiment: function(){
+      
       let completion_url = store.state.completionUrl;
+      console.log(completion_url);
       window.location = completion_url;
     }
   }

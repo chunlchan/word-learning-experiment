@@ -41,7 +41,7 @@
           <p style="color:red" v-if="valid===false">Some answers incorrect!</p>
         </v-row>
         <v-row justify="center" align="center" no-gutters>
-          <p class="caption">version 2.1</p>
+          <p class="caption">version 2.2</p>
         </v-row>
       </v-col>
     </v-row>
